@@ -44,9 +44,12 @@ dependencies:
   url_launcher: ^6.3.0
   web3modal_flutter: ^3.0.1
   walletconnect_flutter_v2: ^2.1.11
-  audioplayers: ^6.0.0
+  just_audio: ^0.9.37
   flutter_audio_waveforms: ^1.2.1+8
   video_player: ^2.9.1
+  provider: 6.0.5
+  flutter_screenutil: ^5.9.0
+  simple_waveform_progressbar: ^0.0.3
 
 dev_dependencies:
   flutter_test:
@@ -86,10 +89,10 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
+  fonts:
+    - family: InterVariable
+      fonts:
+        - asset: assets/fonts/InterVariable.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
